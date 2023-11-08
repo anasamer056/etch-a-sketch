@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(17, 61, 86);
+}
+
+.squares-container {
+    display: flex;
+    min-width: 320px;
+    min-height: 320px;
+    background-color: transparent;
+    flex: 0 0 320px;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: start;
+    justify-content: stretch;
+}
+
+.main-container {
+    display: flex;
+    margin: 20px 0
+ 
+}
+
+
+
+.inactive {
+    background-color: black;
+
+}
+
+.active {
+    background-color: white;
+}
+
+.square {
+   box-sizing: border-box;
+   
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+}
